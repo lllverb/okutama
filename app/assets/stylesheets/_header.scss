@@ -1,0 +1,40 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 1;
+  height: 100px;
+  width: 100%;
+  line-height: 100px;
+  background-color: transparent;
+  &__left{
+    height: 100%;
+    width: 30%;
+    text-align:center;
+    &--logo{
+      color: white;
+      font-size: 40px;
+    }
+  }
+  &__right{
+    height: 100%;
+    width: 70%;
+    margin-left: 200px;
+    &--ul{
+      display: flex;
+      li{
+        height: 100%;
+        width: 16.6%;
+        text-align: center;
+        a{
+          display: block;
+          color: white;
+          text-decoration: none;
+          &:hover{
+            color: 
+          }
+        }
+      }
+    }
+  }
+}
