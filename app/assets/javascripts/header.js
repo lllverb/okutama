@@ -1,12 +1,10 @@
 $(function () {
-  // 検討中/////////////////
   var header = $('#header');
   $(window).scroll(function () {
     if ($(this).scrollTop() > 300) {
-      header.addClass('bg-white');
+      header.addClass('index-header');
     } else {
-      header.removeClass('bg-white');
+      header.removeClass('index-header');
     }
   });
-  // 検討中////////////////
 });

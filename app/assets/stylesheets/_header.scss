@@ -51,8 +51,17 @@
     }
   }
 }
-.bg-white{
-  background-color: rgba(255, 255, 255, 0.7);
+.index-header{
+  background-color: rgba(255, 255, 255, 0.8);
+  a{
+    color: black!important;
+    &:hover{
+      color: $okutama_main!important;
+    }
+  }
+}
+.other-header{
+  background-color: rgba(255, 255, 255, 0.8);
   a{
     color: black!important;
     &:hover{

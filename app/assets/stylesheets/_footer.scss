@@ -10,9 +10,16 @@
       justify-content: center;
       li{
         margin-top: 40px;
-        font-size: 60px;
-        line-height: 35px;
-        color: white;
+        a{
+          font-size: 80px;
+          line-height: 35px;
+          color: white;
+          text-decoration: none;
+          transition: 0.4s;
+          &:hover{
+            color: $okutama_head;
+          }
+        }
       }
     }
   }
