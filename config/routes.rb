@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
   root 'okutama#index'
-  get 'contacts/new'
+  resources :contacts, only: [:new, :create]
 end
