@@ -1,0 +1,24 @@
+= render '/templates/other_header'
+.page-title
+  %h2
+    ACCESS
+.map-area
+  = render '/templates/map'
+.how-to-access
+  .by-train
+    %h3
+      電車でのアクセス
+    .by-train__text
+      %p 東京方面から中央線立川駅で青梅線に乗換、青梅駅で奥多摩行きに乗換
+      %p 青梅線 青梅駅〜川井駅まで21分（8駅）
+      %p 川井駅より奥多摩日本語学校まで徒歩14分（800m）
+    .by-train__image
+  .by-car
+    %h3
+      車でのアクセス
+    .by-car__text
+      %p ※学校には駐車場20台分程度有り
+      %p 東京方面から中央自動車道八王子JCT～圏央道日の出IC～国道411号線～奥多摩町
+      %p 埼玉方面から圏央道青梅IC～青梅街道～奥多摩町
+    .by-car__image
+= render '/templates/footer'

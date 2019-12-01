@@ -1,0 +1,23 @@
+.map-area{
+  padding-top: 30px;
+}
+.how-to-access{
+  margin-top: 100px;
+  padding: 0 10%;
+  h3{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .by-train{
+    &__text{
+      padding: 30px;
+      border-top: 4px solid black;
+    }
+  }
+  .by-car{
+    &__text{
+      padding: 30px;
+      border-top: 4px solid black;
+    }
+  }
+}

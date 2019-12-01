@@ -1,3 +1,48 @@
-.contact{
-  height: 300vh;
+.contact-form{
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+  .input-area{
+    padding-bottom: 50px;
+    width: 100%;
+    input{
+      height: 36px;
+      width: 100%;
+      margin-top: 10px;
+      padding: 0 8px;
+      border: 1px solid gray;
+      border-radius: 3px;
+      &:focus{
+        outline: 2px solid $okutama_head;
+      }
+    }
+    textarea{
+      height: 100px;
+      width: 100%;
+      max-width: 100%;
+      min-width: 100%;
+      margin-top: 20px;
+      padding: 8px 5px;
+      border: 1px solid gray;
+      border-radius: 3px;
+      &:focus{
+        outline: 2px solid $okutama_head;
+      }
+    }
+  }
+  #contact-button{
+    display: block;
+    height: 50px;
+    width: 210px;
+    margin: 0 auto 50px;
+    border: 1px solid gray;
+    box-shadow: 0 3px 6px lightgray;
+    transition: 0.2s;
+    &:hover{
+      cursor: pointer;
+      box-shadow: none;
+      position: relative;
+      top: 3px;
+    }
+  }
 }
