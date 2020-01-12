@@ -6,10 +6,14 @@
     height: 100%;
     width: 100%;
     background-size: cover;
-    background-image: url('top.png');
+    // background-image: url('facade.png');
     background-repeat: no-repeat;
     background-position: center;
-    animation: zoomin 5s linear forwards;
+    animation: zoomin 5s linear infinite;
+    img{
+      height: 100%;
+      width: 100%;
+    }
   }
 }
 
